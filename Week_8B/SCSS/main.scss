@@ -1,0 +1,53 @@
+$max_width : 100%; /* a var for max width */
+$max_cols: 16;
+$single_col: $max_width / $max_cols;
+
+.col-1 {
+  width: $max_width / 12; 
+} 
+
+@for $i from 1 through 16 {
+
+    /** on the first loop i = 1 and iterates up to 12 
+        on each loop 
+    ***/
+    .col-#{$i} { width: $single_col * $i }
+}
+
+@media all and (max-width:650px){
+    [class*='col-']{
+        width: 100%;
+   }
+
+    [class*='offset-']  {
+       margin-left: 0%;
+   }
+
+    .nav{
+        display: none;   
+    }
+
+  h3 {
+
+     text-align: center;
+  }
+}
+
+@media all and (min-width:650px){
+    [class*='col-']{
+        width: 100%;
+   }
+
+    [class*='offset-']  {
+       margin-left: 0%;
+   }
+
+    .nav{
+        display: none;   
+    }
+
+  h3 {
+
+     text-align: center;
+  }
+}

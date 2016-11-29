@@ -1,0 +1,14 @@
+$red: #ff0000; 
+
+
+
+p{
+    
+    color:$red;
+} 
+
+$font-family: arial, Helvetica, sans-serif;
+
+body {
+    font: $font-family;
+    }
