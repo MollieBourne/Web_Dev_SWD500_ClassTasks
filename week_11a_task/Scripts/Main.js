@@ -9,13 +9,12 @@ $(document).ready(function(){
 
     $('#Right').click(function(e) {
         alert("Right button has been clicked")
+        $('#Carousel').attr('src', 'Images/image_2.jpg')
+    })
+    
+    $('#Left').click(function(e) {
+        alert(" Left Button HAs Been Clicked")
+        $('#Carousel').attr('src', 'Images/image_3.jpg')
     })
 
-});
-
-  $('#Click_Me').click(function(e){
-    
-    alert("button has been clicked")
-    $('#img').attr('src, 'img/fox.jpg')
-    
 });
