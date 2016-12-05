@@ -1,9 +1,15 @@
+# Web Dev SWD500 Class Tasks 
+
 ## Website Design SWD500 Class Tasks
 
 ###This repositery will hold all of the class tasks that will be created in the lead up to the second assignment from week 8 through to week 14 
 
 # Helpfull Git Commands 
 
+###sass --watch scss/main.scss;css/main.css 
+###git push origin 
+###git pull origin 
+###git add remote origin https://github.com/MollieBourne/Web_Dev_SWD500_ClassTasks.git
 
 
 ## Week 8a - Using SASS The Basics
